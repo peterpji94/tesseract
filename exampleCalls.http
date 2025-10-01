@@ -1,0 +1,14 @@
+### Ping
+GET http://localhost:8080/ping
+Content-Type: application/json
+
+### Create user
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "email": "foo@bar.com"
+}
+
+### Read users
+GET http://localhost:8080/users

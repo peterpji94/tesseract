@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2020",
+    "lib": ["esnext"],
+
+    /* Modules */
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "resolveJsonModule": true,
+
+    /* Emit */
+    "sourceMap": true,
+    "outDir": "./dist",
+
+    /* Interop Constraints */
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
